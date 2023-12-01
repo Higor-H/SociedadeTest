@@ -1,0 +1,35 @@
+ *{
+  margin: 0;
+ }
+ 
+ .a, .b, .c, .d, .outra{
+  height: 110vh;
+}
+
+.a{
+  background-color: aliceblue;
+}
+.b{
+  background-color: #000000;
+    /* background-image: url(../img/CriaturasParadasSite.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 50vh;
+    background-position: bottom;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    overflow: hidden;
+
+}
+.b img{
+  width: 100%;
+  scale: .5;
+}
+.c{
+  background-color:blueviolet ;
+}
+.d{
+  background-color: aqua;
+}
